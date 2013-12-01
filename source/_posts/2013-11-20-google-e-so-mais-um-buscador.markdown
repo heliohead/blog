@@ -12,12 +12,12 @@ Tenho observado muitas possoas utilizando o browser de forma errada, não sabem 
 
 Várias pessoas não sabem utilizar o [browser](https://pt.wikipedia.org/wiki/Navegador), pensam que o Google é o meio correto de se navegar pela internet, usam o Google até mesmo quando querem acessar um endereço conhecido...
 
-{% img /images/post-23-11-2013/fb-google.png %}
+{% img /images/posts/post-23-11-2013/fb-google.png %}
 
 
 Pensando um pouco... olhe este exemplo..
 
-{% img /images/post-23-11-2013/mercadolivre-google.png %}
+{% img /images/posts/post-23-11-2013/mercadolivre-google.png %}
 
 O primeiro link do ML é patrocinado portanto o Google está faturando por inércia, isto não problema, o problema é quando o Google ainda não indexou o site que a pessoa quer entrar.
 

@@ -9,13 +9,14 @@ footer: true
 
 
 
-## Hi, I'm  Helio Oliveira
+## Hi, I'm  Helio Oliveira  
 
-I like 
-skate, 
-hand made things at home, 
-hardcore, punk, ska, nu metal,
-linux,
+
+I like  
+skate,  
+hand made things at home,  
+hardcore, punk, ska, nu metal,  
+linux,  
 ruby,
 
 

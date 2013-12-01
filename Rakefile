@@ -1,6 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "reduce"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
@@ -99,7 +100,7 @@ task :new_post, :title do |t, args|
   end
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   mkdir_p "#{source_dir}/#{posts_dir}"
-  filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%Y')}-#{title.to_url}.#{new_post_ext}"
+  filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
@@ -397,4 +398,26 @@ desc "list tasks"
 task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
+end
+
+desc "Minify _site/"
+task :minify do
+  puts "\n## Compressing static assets"
+  original = 0.0
+  compressed = 0
+  Dir.glob("public/**/*.*") do |file|
+    case File.extname(file)
+      when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
+        puts "Processing: #{file}"
+        original += File.size(file).to_f
+        min = Reduce.reduce(file)
+        File.open(file, "w") do |f|
+          f.write(min)
+        end
+        compressed += File.size(file)
+      else
+        puts "Skipping: #{file}"
+    end
+  end
+  puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
 end
