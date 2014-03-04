@@ -5,9 +5,9 @@ require "reduce"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "root@192.241.239.71"
+ssh_user       = "root@93.188.163.163"
 ssh_port       = "22"
-document_root  = "/var/www/helio_blog"
+document_root  = "/var/www/helio.net.br/htdocs"
 rsync_delete   = false
 rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
