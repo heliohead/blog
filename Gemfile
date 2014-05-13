@@ -18,4 +18,8 @@ group :development do
   gem "reduce"
 end
 
+group :jekyll_plugins do
+  gem 'octopress-gist'
+end
+
 gem 'sinatra', '~> 1.4.2'
