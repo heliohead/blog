@@ -8,17 +8,17 @@ description: "Idéias "
 
 email: 2@lio.pw
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/author.png"
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
 name: 'Helio Oliveira'
 author: 'Helio Oliveira'
-author_image: "/assets/images/author.jpg"
+author_image: "/assets/images/author.png"
 
 paginate:	5
 
-url: "http://lio.pw/blog" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options

@@ -33,6 +33,11 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 </footer>
 {% endhighlight %}
 
+… which is shown in the screenshot below:
+![My helpful screenshot]({{ site.url }}/assets/images/author.png)
+
+
+
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll

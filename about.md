@@ -4,14 +4,24 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+Hi, My name is Helio Oliveira
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+I am Internet Hobbyst, Sotware passionate, Repair hacker, also like cars and motocycle mechanics, and all those things that involve eletrical, hammer, screew driver and drill.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I Like Nu Metal, Punk and HardCore bands.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+A Brazilian who don't like Soccer, Carnival, Samba, Beach and Shopping Malls.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+An oldschool skateboarder, fallen in love with [Viviane](http://facebook.com/viviporumfio) sice 1992.
+
+Decide return to College last year,
+
+You can find me on:
+
+[Twitter](http://twitter.com/heliohead)
+
+[Github](http://github.com/heliohead)
+
+Or **ping me** at: <2 @ lio . pw>
+
+[About this site]({{ site.url }}/license)
