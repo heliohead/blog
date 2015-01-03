@@ -3,12 +3,12 @@ layout: post
 title: "Como migrar para um VPS"
 date: 2014-03-04 16:01
 comments: true
-categories: 
+categories:
 ---
 
-# Configurando um VPS 
+# Configurando um VPS
 
-Este é o primeiro tutorial de uma série VPS que vou fazer. 
+Este é o primeiro tutorial de uma série VPS que vou fazer.
 
 Iremos básico aprender:
 
@@ -28,7 +28,7 @@ A vantagem em relação a Hospedagem compartilhada é você poder instalar progr
 
 A desvantagem é que você é responsável pela manutenção e segurança de seu servidor.
 
-Você pode tambem hospedar sua aplicação em um [PaaS](http://en.wikipedia.org/wiki/Platform_as_a_service), como Heroku, Appfrog, etc. mas isto é assunto para outro post. :D  
+Você pode tambem hospedar sua aplicação em um [PaaS](http://en.wikipedia.org/wiki/Platform_as_a_service), como Heroku, Appfrog, etc. mas isto é assunto para outro post. :D
 
 
 ### Como adquirir um servidor
@@ -38,16 +38,16 @@ Existem várias empresas que oferecem VPS ou [Cloud Computing](http://pt.wikiped
 
 Vou citar as que eu pessoalmente utilizo, isso não que dizer que são boas ou ruins mas atendem as minhas necessidades "preço".
 
-* [Digital Ocean](https://www.digitalocean.com) 
+* [Digital Ocean](https://www.digitalocean.com)
  Ótimo serviço e preço, melhor custo benefício  inicia com US$ 5 de crédito, ótimos tutoriais, se esquecer de pagar a mensalidade o serviço não é cortado você fica com o saldo negativo e no proximo aporte eles debitam os minutos que você ficou devendo, a tarifação é por minuto do servidor operando, se excluir o servidor seus creditos ficam lá, sedo assim você pode levantar mais de uma máquina ao mesmo tempo com um só credito de US$ 5.
 
-* [Hostinger](http://www.hostinger.com.br/hospedagem-vps) 
+* [Hostinger](http://www.hostinger.com.br/hospedagem-vps)
 Vantagem de pagar com boleto ou débito, para os que não tem cartão de credito internacional.
-A bilhetagem é mensal. 
+A bilhetagem é mensal.
 O sistema de geranciamento é Cpanel
 R$ 19,00 inicial  com 1 giga de Ram
 
-* [CloudatCost](http://cloudatcost.com/) 
+* [CloudatCost](http://cloudatcost.com/)
 É a mais simples e mais barata das listadas aqui, inicia com US$ 1, mensal ou taxa única de US$ 35.
 Tem menos recursos, tenho um ligado a uns 2 meses e me parace uma boa opção.
 
@@ -117,12 +117,12 @@ $ ssh-copy-id deploy@seuip   # Irá pedir para confirmar seu fingerprint digite 
 
 Beleza agora vamos conectar com o usario deploy
 ```
-$ ssh deploy@seuip  
+$ ssh deploy@seuip
 ```
 
 Podemos bloquear o acesso ssh root então
 ```
-$ sudo vi /etc/ssh/sshd_config  
+$ sudo vi /etc/ssh/sshd_config
 
 PermitRootLogin yes  # na linha 28 mude de yes para no
 ```
@@ -132,7 +132,7 @@ Reinicie o serviço
 $ sudo /etc/init.d/ssh restart
 ```
 
-Este é o basico do basico. em um post futuro nos aprofundaremos em segurança ;D  
+Este é o basico do basico. em um post futuro nos aprofundaremos em segurança ;D
 
 ### Instalando um web server
 
@@ -146,9 +146,9 @@ $ wget http://www.dotdeb.org/dotdeb.gpg
 $ sudo apt-key add dotdeb.gpg
 $ sudo apt-get update
 $ sudo apt-get install nginx
- 
-``` 
-Para testar se o servidor está em pé 
+
+```
+Para testar se o servidor está em pé
 ```
 $ curl -I localhost
 ```
