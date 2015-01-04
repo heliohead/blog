@@ -3,9 +3,8 @@
 .sass-cache
 .gist-cache
 .pygments-cache
-source/_stash
 vendor
 node_modules
-_site
+_site/*
 .sass-cache
 .DS_Store
