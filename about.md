@@ -14,7 +14,17 @@ A Brazilian who don't like Soccer, Carnival, Samba, Beach and Shopping Malls.
 
 An oldschool skateboarder, fallen in love with [Viviane](http://facebook.com/viviporumfio) sice 1992.
 
-Decide return to College last year,
+Decide return to College last year, learning more online than at classroom o.O
+
+### Goals:
+
+- ~~Disassemble an entire motorcycle and ride again~~ &#10004; &#10004;
+- ~~Have a child~~ &#10004; &#10004;
+- ~~Plant a tree~~  25 &#10004;
+- Write a book  ⊗ working in process
+- Parachute jump
+
+
 
 You can find me on:
 
