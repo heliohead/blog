@@ -14,7 +14,7 @@ author_image: "/assets/images/author.png"
 
 paginate:	5
 
-url: "http://lio.pw" # the base hostname & protocol for your site
+url: "http://blog.lio.pw"
 baseurl: ""
 
 social:
