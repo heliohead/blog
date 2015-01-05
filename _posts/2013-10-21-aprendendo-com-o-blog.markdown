@@ -11,7 +11,7 @@ Primeiramente obrigado por acessar meu blog, se você chegou até aqui, ou é me
 
 Comecei a  escrever um blog primeiramente para eu aprender.... isso mesmo aprender, quando se escreve sobre algo, tem que se repensar sobre e pesquisar para postar algo, assim sempre aprendendo mais.
 
-Então se algo estiver errado aqui  [e-mail me](maito: hheelliioo@live.com) ou [twitter me](http://twitter.com/lodfaria) ou poste nos comentários,
+Então se algo estiver errado aqui  [ping me](maito: hheelliioo@live.com) ou [twitter me](http://twitter.com/heliohead) ou poste nos comentários,
 
 Sugestões são bem vindas
 
