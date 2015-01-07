@@ -14,7 +14,7 @@ task :minify do
   puts "\n## Compressing static assets"
   original = 0.0
   compressed = 0
-  Dir.glob("#{path}/**/*.*") do |file|
+  Dir.glob("_site/**/*.*") do |file|
     case File.extname(file)
       when ".css", ".html", ".js"
         puts "Processing: #{file}"
