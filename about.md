@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, My name is Helio Oliveira
 
-I am Internet Hobbyst, Sotware passionate, Repair hacker, also like cars and motocycle mechanics, and all those things that involve eletrical, hammer, screew driver and drill.
+I am Internet Hobbyst, Software passionate, Repair hacker, also like cars and motocycle mechanics, and all those things that involve eletrical, hammer, screew driver and drill.
 
 I Like Nu Metal, Punk and HardCore bands.
 
