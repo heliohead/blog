@@ -1,11 +1,11 @@
-require 'reduce'
+#require 'reduce'
 
 desc 'Publishing the website via rsync'
 task :deploy do
   puts 'Publishing your website, silence is golden...'
   user = 'user'
   server = 'blog.lio.pw'
-  path = '/var/www/blog.lio.pw/public_html'
+  path = '/var/www/blog.lio.pw/public'
   sh "rsync -rtzh --delete _site/ #{user}@#{server}:#{path}"
 end
 
