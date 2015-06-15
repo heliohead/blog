@@ -142,7 +142,7 @@ Fork é um clone de um projeto na sua url do Github, esta forma o sistema tem co
 De longe é a coisa mais legal do [OSS](https://en.wikipedia.org/wiki/Open-source_software), você resolve um bug ou adiciona uma feature em sua cópia local, envia para o repo remoto e se desejar que a alterção entre no repo original forkado é só apertar o botão de pull request, discutir o código no issue tracker e aguardar o mantenedor do projeto fazer o merge........ ou não rs.
 
 ## Mini Palestra sobre Git e GitHub
-Este post rendeu um talk, veja os slides [aqui](http://heliohead.github.io/presention_git_github/) 👍
+Este post rendeu um talk, veja os slides [aqui](http://heliohead.github.io/comecando_com_git_github/) 👍
 
 ## Tutorial de Git do básico ao avançado
 <br />
