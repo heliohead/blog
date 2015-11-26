@@ -10,7 +10,7 @@ I am Internet Hobbyst, Software passionate, Repair hacker, also like cars and mo
 
 I Like Nu Metal, Punk and HardCore bands.
 
-A Brazilian who don't like Soccer, Carnival, Samba, Beach and Shopping Malls.
+A Brazilian who dislike Soccer, Carnival, Samba, Beach and Shopping Malls.
 
 An oldschool skateboarder, fallen in love with [Viviane](http://facebook.com/viviporumfio) sice 1992.
 
@@ -18,10 +18,10 @@ Decide return to College last year, learning more online than at classroom o.O
 
 ### Goals:
 
-- ~~Disassemble an entire motorcycle and ride again~~ &#10004; &#10004;
-- ~~Have a child~~ &#10004; &#10004;
-- ~~Plant a tree~~  25 &#10004;
-- Write a book  ⊗ working in process
+- <s>Disassemble an entire motorcycle and ride again</s>  &#10004;
+- <s>Have a child</s>  &#10004;
+- <s>Plant a tree</s>  &#10004;
+- Write a book ⊗ working in process
 - Parachute jump
 
 
@@ -32,6 +32,6 @@ You can find me on:
 
 [Github](http://github.com/heliohead)
 
-Or **ping me** at: <2 @ lio . pw>
+Or **ping me** at: [hheelliioo @ live . com]
 
-[About this site]({{ site.url }}/license)
+[This site is under WTFPL]({{ site.url }}/license)
