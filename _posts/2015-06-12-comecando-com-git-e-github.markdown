@@ -144,56 +144,5 @@ De longe é a coisa mais legal do [OSS](https://en.wikipedia.org/wiki/Open-sourc
 ## Mini Palestra sobre Git e GitHub
 Este post rendeu um talk, veja os slides [aqui](http://heliohead.github.io/comecando_com_git_github/) 👍
 
-## Tutorial de Git do básico ao avançado
-<br />
-
-### Tutorial de git part I
-{% youtube uRV8mrp6gJw %}
-
-<br />
-
-### Tutorial de git part II
-{% youtube YmMmkEyxeSE %}
-
-<br />
-
-### Tutorial de git part III
-{% youtube UGdhxWvfHrI %}
-
-<br />
-
-### Tutorial de git part IV
-{% youtube ajrku87BPac %}
-
-<br />
-
-### Tutorial de git part V
-{% youtube 85E7mx0ogH0 %}
-
-<br />
-
-### Tutorial de git part VI
-{% youtube CVggrhaLOaA %}
-
-<br />
-
-### Tutorial de git part VII
-{% youtube AHXYidKEsPc %}
-
-<br />
-
-### Tutorial de git part VIII
-{% youtube LKFoLqg924Q %}
-
-<br />
-
-### Tutorial de git part IX
-{% youtube Y_42toe5Ij0 %}
-
-<br />
-
-### Tutorial de git part X
-{% youtube dxrVJC3uZ9s %}
-
 <br />
 <br />
