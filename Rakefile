@@ -1,4 +1,4 @@
-#require 'reduce'
+require 'reduce'
 
 desc 'Publishing the website via rsync'
 task :deploy do
